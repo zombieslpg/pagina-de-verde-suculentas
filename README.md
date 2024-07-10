@@ -1,3 +1,3 @@
-<h1>Página de prueva de Verde Suculentas</h1>
+<h1>Página de prueba de Verde Suculentas</h1>
 
-- Estado del proyecto: En construccion.
+- Estado del proyecto: En construcción.
