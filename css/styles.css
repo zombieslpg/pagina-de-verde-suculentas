@@ -1,1 +1,44 @@
+@font-face {
+    font-family: 'textoTitulo';
+    src: url('../fonts/textoTitulo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'textoParrafo';
+    src: url('../fonts/textoParrafo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+p {
+    color: rgb(118, 17, 117);
+    font-family: 'textoParrafo';
+    font-size: 32px;
+    text-align: center;
+}
 
+h1 {
+    color: rgb(192, 91, 203);
+    font-family: 'textoTitulo', sans-serif;
+    font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+}
+texto_rojo{
+    color: rgb(124, 25, 111);
+}
+strong {
+    color: rgb(47, 160, 47);
+}
+
+pepe {
+    color: yellow;
+}
+a {
+    font-family: 'textoParrafo';
+    font-size: 64px;
+    color: rgb(221, 54, 171);
+}
+ {
+    color: black;
+}
