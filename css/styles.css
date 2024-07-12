@@ -1,44 +1,108 @@
 @font-face {
     font-family: 'textoTitulo';
     src: url('../fonts/textoTitulo.ttf') format('truetype');
+    /* Añade más formatos si tienes disponibles */
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'textoParrafo';
     src: url('../fonts/textoParrafo.ttf') format('truetype');
+    /* Añade más formatos si tienes disponibles */
     font-weight: normal;
     font-style: normal;
 }
-p {
-    color: rgb(118, 17, 117);
-    font-family: 'textoParrafo';
-    font-size: 32px;
-    text-align: center;
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: rgb(192, 91, 203);
-    font-family: 'textoTitulo', sans-serif;
-    font-size: 100px;
-    font-weight: 100;
     text-align: center;
-}
-texto_rojo{
-    color: rgb(124, 25, 111);
-}
-strong {
-    color: rgb(47, 160, 47);
+    margin-top: 30px;
+    font-family: 'textoTitulo', serif;
+    font-size: ;
+    color: rgb(251, 132, 255)
+    
 }
 
-pepe {
-    color: yellow;
+.static-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagenes/fondo.jpg'); /* Asegúrate de que la ruta de la imagen sea correcta */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.parallax {
+    position: absolute ;
+    top: 0;
+    left: 0%;
+    width: 500px;
+    height: 170px; /* Ajusta según sea necesario */
+    background-image: url('../imagenes/verde.png'); /* Asegúrate de que la ruta de la imagen sea correcta */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate3d(0, 0, 0);
+
+    
+}
+
+.content {
+    position: ;
+    z-index: 555;
+    padding: 1px;
+    background-color:;
+    text-align: center;
+}
+
+p {
+    color: rgb(237, 159, 230);
+    font-size: 55px;
+    font-family: 'textoParrafo', sans-serif;
+
+}
+.bordered-text {
+    font-size: 44px; /* Ajusta el tamaño del texto según sea necesario */
+    color:; /* Color del texto principal */
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; /* Color del borde */
+}
+.bordered-titulo {
+    font-size: 100px; /* Ajusta el tamaño del texto según sea necesario */
+    color: rgb(255, 169, 255); /* Color del texto principal */
+    text-shadow: 
+        -6px -3px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; /* Color del borde */
+}
+img {
+    max-width: 20%;         /* Asegura que la imagen no sobrepase el contenedor */
+    height: auto;
 }
 a {
-    font-family: 'textoParrafo';
-    font-size: 64px;
-    color: rgb(221, 54, 171);
-}
- {
-    color: black;
+    color: rgb(105, 24, 99);
+    font-size: 55px;
+    font-family: 'textoParrafo', sans-serif;
+
 }
